@@ -1,10 +1,15 @@
-Setup project
+# Poetry playground
 
-- clone repo
+## Setup project
 
-- configure virtualenv
+```
+poetry env use 3.11
+poetry install
+```
 
-    ```
-    poetry env use 3.11
-    pyenv install
-    ```
+
+## Execute project
+
+```
+poetry run python poetry_tests
+```
